@@ -1,0 +1,178 @@
+
+body {
+    background-color: #f0f4ff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+    font-size: 30px;
+}
+
+p {
+    color: #333333;
+    font-size: 18px;
+}
+
+
+nav {
+    background-color: #222;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+}
+
+h2 {
+    color: #222;
+    margin-top: 50px;
+}
+
+.card {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card h3 {
+    color: blue;
+}
+button {
+    background-color: blue;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+}
+footer {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    margin-top: 40px;
+}
+footer p {
+    color: white;
+}
+@media (max-width: 600px) {
+    nav a {
+        margin: 8px;
+        font-size: 15px;
+    }
+
+    .card {
+        margin: 10px;
+    }
+
+    button {
+        padding: 12px 20px;
+    }
+}
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Stylish Heading */
+h1 {
+    color: #2563eb;
+    text-shadow: 2px 2px 5px #b8caff;
+    transition: 0.3s;
+}
+
+/* Navigation Hover Effect */
+nav a {
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #60a5fa;
+    border-bottom: 2px solid #60a5fa;
+}
+
+/* Card Animation */
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 22px rgba(0,0,0,0.18);
+}
+
+/* Button Animation */
+button {
+    background: linear-gradient(45deg, #2563eb, #7c3aed);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.06);
+    box-shadow: 0 5px 15px rgba(37,99,235,0.35);
+}
+
+/* Section Heading */
+h2 {
+    text-decoration: underline;
+    text-decoration-color: #60a5fa;
+    text-underline-offset: 8px;
+}
+/* Automatic Button Bounce */
+@keyframes softBounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-7px);
+    }
+}
+
+button {
+    animation: softBounce 2s ease-in-out infinite;
+}
+.popup {
+    display: none;
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+    color: white;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    animation: popupShow 0.5s ease;
+}
+
+.popup h2 {
+    color: white;
+    margin-top: 5px;
+}
+
+.popup p {
+    color: white;
+}
+
+.popup button {
+    background: white;
+    color: #2563eb;
+    animation: none;
+}
+
+@keyframes popupShow {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
