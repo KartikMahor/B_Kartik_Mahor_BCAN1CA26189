@@ -10,6 +10,6 @@ The website contains two pages. The first page is the Home page. It introduces t
 
 The second page is the About and Explore page. It explains the purpose of the Coding Club, its vision, and its mission. It also includes sections for student projects, learning activities, achievements, and the club community. These sections help visitors understand how students can learn together, share ideas, and build projects. Contact and community links are included so interested students can find more information.
 
-The website is developed using HTML, CSS, and JavaScript. HTML is used to create the structure and content, CSS is used for colours, spacing, layout, and responsive design, and JavaScript is used for interactive features. The layout is planned to work on desktop, tablet, and mobile screens. Navigation between the two pages should work correctly, and buttons and links should have clear purposes.
+The website is developed using HTML, CSS, and JavaScript. HTML is used to create the structure and content, CSS is used for colours, spacing, layout, and responsive design, and JavaScript is used for interactive features. 
 
 This project is a front-end website only. It does not use a database or a back-end server. The project is intended as a beginner-friendly demonstration of basic web design skills and a way to practise creating a website for a university community.
