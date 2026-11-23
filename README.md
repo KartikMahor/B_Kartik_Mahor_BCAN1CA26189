@@ -13,7 +13,3 @@ The second page is the About and Explore page. It explains the purpose of the Co
 The website is developed using HTML, CSS, and JavaScript. HTML is used to create the structure and content, CSS is used for colours, spacing, layout, and responsive design, and JavaScript is used for interactive features. The layout is planned to work on desktop, tablet, and mobile screens. Navigation between the two pages should work correctly, and buttons and links should have clear purposes.
 
 This project is a front-end website only. It does not use a database or a back-end server. The project is intended as a beginner-friendly demonstration of basic web design skills and a way to practise creating a website for a university community.
-
-AI Usage Declaration
-
-AI assistance was used for brainstorming, understanding concepts, and reviewing ideas. The design choices, code editing, testing, and final implementation should be completed and understood by the participant.
